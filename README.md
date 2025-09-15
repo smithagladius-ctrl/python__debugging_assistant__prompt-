@@ -29,7 +29,7 @@ python examples/bug2_nameerror.py
 python examples/bug3_offbyone.py
 python examples/bug4_logic.py
 
-Reasoning
+**Reasoning**
 
 Tone & Style: The AI should use a friendly, encouraging, and student-friendly tone, focusing on hints and explanations rather than direct fixes.
 
@@ -40,3 +40,17 @@ Adaptation:
 For beginners → provide simpler explanations, step-by-step hints, and direct references to basic concepts.
 
 For advanced learners → give higher-level hints, suggest debugging strategies, and encourage independent problem-solving.
+
+**Examples**
+
+The examples folder contains small buggy Python programs that can be used to test the AI assistant’s behavior:
+
+bug1_syntax.py → Missing colon in a for loop (syntax error).
+
+bug2_syntax.py → Uses an undefined variable (count instead of cnt).
+
+bug3_syntax.py → Loop skips the last element (off-by-one error).
+
+bug4_syntax.py → Impossible condition (x < 0 and x > 10) causing wrong logic branch.
+
+These help evaluate how well the AI gives hints without directly fixing the code.
